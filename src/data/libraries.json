@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Introduction to Python Libraries",
+        "path":"/intro-to-python",
+        "childrens": [
+            {
+                "title": "Introduction to Python",
+                "path": "/intro"
+            },
+            {
+                "title": "Basic Python Program",
+                "path": "/basic"
+            },
+            {
+                "title": "Variables in Python",
+                "path": "/variable"
+            },
+            {
+                "title": "Variables in Python",
+                "path": "/variable"
+            },
+            {
+                "title": "Variables in Python",
+                "path": "/variable"
+            }
+        ]
+    },
+    {
+        "title": "flask to Python Libraries",
+        "path":"/intro-to-python",
+        "childrens": [
+            {
+                "title": "Introduction to Python",
+                "path": "/intro"
+            },
+            {
+                "title": "Basic Python Program",
+                "path": "/basic"
+            },
+            {
+                "title": "Variables in Python",
+                "path": "/variable"
+            },
+            {
+                "title": "Variables in Python",
+                "path": "/variable"
+            },
+            {
+                "title": "Variables in Python",
+                "path": "/variable"
+            }
+        ]
+    }
+]

@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html,body{
+  height: 100vh;
+}
+
+.main{
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar{
+  width: 300px;
+  flex-shrink: 0;
+  background-color: aquamarine;
+  height: 100%;
+  overflow: auto;
+}
+
+
+.sidebar-item{
+  padding: 1em;
+ 
+
+  display: block;
+ 
+}
+
+
+.sidebar-item:hover{
+  background-color: azure;
+
+}
+.sidebar-title{
+  display: flex;
+  font-size: 1.2em;
+  justify-content: space-between;
+  
+}
+.sidebar-title a {
+  text-decoration: none;
+}
+
+.sidebar-title .toggle-btn{
+  cursor: pointer;
+  transition: transform .3s;
+}
+
+.sidebar-item.open .sidebar-title .toggle-btn{
+  transform: rotate(180deg);
+}
+
+.sidebar-content{
+  padding-top: .25em;
+  height: 0;
+  overflow: hidden;
+}
+
+.sidebar-item.open .sidebar-content{
+  height: auto;
+}
